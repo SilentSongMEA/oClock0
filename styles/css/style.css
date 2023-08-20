@@ -1,0 +1,16 @@
+body {
+  background: #000000;
+}
+
+.oClock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: Orbitron;
+  font-size: 50px;
+  transform: translateX(-50%) translateY(-50%);
+  color: #17edff;
+  letter-spacing: 7px;
+}
+
+/*# sourceMappingURL=style.css.map */

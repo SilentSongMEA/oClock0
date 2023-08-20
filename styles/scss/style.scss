@@ -1,0 +1,16 @@
+@import "variable";
+
+body{
+    background: $backBody;
+}
+
+.oClock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family:$fontFamily ;
+    font-size:$fontSize ;
+    transform: translateX(-50%) translateY(-50%);
+    color: $fontColor;
+    letter-spacing: 7px;
+}
