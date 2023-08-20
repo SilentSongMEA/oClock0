@@ -1,5 +1,8 @@
 body {
   background: #000000;
+  justify-items: center;
+  text-align: justify;
+  align-items: center;
 }
 
 .oClock {
@@ -8,6 +11,17 @@ body {
   left: 50%;
   font-family: Orbitron;
   font-size: 50px;
+  transform: translateX(-50%) translateY(-50%);
+  color: #17edff;
+  letter-spacing: 7px;
+}
+
+.date {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-family: Orbitron;
+  font-size: 20px;
   transform: translateX(-50%) translateY(-50%);
   color: #17edff;
   letter-spacing: 7px;

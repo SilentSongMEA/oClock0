@@ -21,6 +21,10 @@ function showTime(){
     let dateTime=`${h}:${m}:${s} ${session}`;
     document.querySelector(".oClock").innerText=dateTime;
     
+    let dateDays=`${date.toLocaleDateString()}`;
+
+    document.querySelector(".date").innerText=dateDays;
 }
+
 
 setInterval(showTime,1000);
